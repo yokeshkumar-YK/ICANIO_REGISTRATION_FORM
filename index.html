@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <label class="details" for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <label class="details" for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <label class="details" for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <label class="details" for="phone">Phone Number</label>
+            <input type="text" id="phone" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <label class="details" for="pass">Password</label>
+            <input type="text" id="pass" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <label class="details" for="cpass">Confirm Password</label>
+            <input type="text" id="cpass" placeholder="Confirm your password" required>
+          </div>
+        </div>
+
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <label class="gender-title">Gender</label>
+          <div class="category">
+            <label for="dot-1" class="gender-option">
+              <label class="dot-label one"></label>
+              <label class="text-label">Male</label>
+            </label>
+            <label for="dot-2" class="gender-option">
+              <label class="dot-label two"></label>
+              <label class="text-label">Female</label>
+            </label>
+            <label for="dot-3" class="gender-option">
+              <label class="dot-label three"></label>
+              <label class="text-label">Prefer not to say</label>
+            </label>
+          </div>
+        </div>
+
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
